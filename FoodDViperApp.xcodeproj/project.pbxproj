@@ -9,21 +9,43 @@
 /* Begin PBXBuildFile section */
 		49686432293C9F85003C1C81 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49686431293C9F85003C1C81 /* AppDelegate.swift */; };
 		49686434293C9F85003C1C81 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49686433293C9F85003C1C81 /* SceneDelegate.swift */; };
-		49686436293C9F85003C1C81 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49686435293C9F85003C1C81 /* ViewController.swift */; };
+		49686436293C9F85003C1C81 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49686435293C9F85003C1C81 /* SplashViewController.swift */; };
 		49686439293C9F85003C1C81 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49686437293C9F85003C1C81 /* Main.storyboard */; };
 		4968643B293C9F86003C1C81 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4968643A293C9F86003C1C81 /* Assets.xcassets */; };
 		4968643E293C9F86003C1C81 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4968643C293C9F86003C1C81 /* LaunchScreen.storyboard */; };
+		49686447293CA0F3003C1C81 /* SplashPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49686446293CA0F3003C1C81 /* SplashPresenter.swift */; };
+		49686449293CA71F003C1C81 /* SplashRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49686448293CA71F003C1C81 /* SplashRouter.swift */; };
+		4968644B293CA8DA003C1C81 /* SplashInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4968644A293CA8DA003C1C81 /* SplashInteractor.swift */; };
+		4968644D293CA95D003C1C81 /* SplashEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4968644C293CA95D003C1C81 /* SplashEntity.swift */; };
+		4968644F293CAAF3003C1C81 /* SplashBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4968644E293CAAF3003C1C81 /* SplashBuilder.swift */; };
+		49686451293D3A8D003C1C81 /* SplashLocal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49686450293D3A8D003C1C81 /* SplashLocal.swift */; };
+		49686453293E2A7E003C1C81 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49686452293E2A7E003C1C81 /* SplashView.swift */; };
+		49686456293E3780003C1C81 /* SplashViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49686455293E3780003C1C81 /* SplashViewCell.swift */; };
+		49686458293E59FC003C1C81 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49686457293E59FC003C1C81 /* UIColorExtension.swift */; };
+		DEF3945E9FA2298315A90640 /* Pods_FoodDViperApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D7403748BC748E5C797E322 /* Pods_FoodDViperApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3D7403748BC748E5C797E322 /* Pods_FoodDViperApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FoodDViperApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4968642E293C9F85003C1C81 /* FoodDViperApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodDViperApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		49686431293C9F85003C1C81 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		49686433293C9F85003C1C81 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		49686435293C9F85003C1C81 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		49686435293C9F85003C1C81 /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
 		49686438293C9F85003C1C81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4968643A293C9F86003C1C81 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4968643D293C9F86003C1C81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4968643F293C9F86003C1C81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49686446293CA0F3003C1C81 /* SplashPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashPresenter.swift; sourceTree = "<group>"; };
+		49686448293CA71F003C1C81 /* SplashRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashRouter.swift; sourceTree = "<group>"; };
+		4968644A293CA8DA003C1C81 /* SplashInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashInteractor.swift; sourceTree = "<group>"; };
+		4968644C293CA95D003C1C81 /* SplashEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashEntity.swift; sourceTree = "<group>"; };
+		4968644E293CAAF3003C1C81 /* SplashBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashBuilder.swift; sourceTree = "<group>"; };
+		49686450293D3A8D003C1C81 /* SplashLocal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashLocal.swift; sourceTree = "<group>"; };
+		49686452293E2A7E003C1C81 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		49686455293E3780003C1C81 /* SplashViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewCell.swift; sourceTree = "<group>"; };
+		49686457293E59FC003C1C81 /* UIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		74764E73C52410D00C594B0B /* Pods-FoodDViperApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodDViperApp.debug.xcconfig"; path = "Target Support Files/Pods-FoodDViperApp/Pods-FoodDViperApp.debug.xcconfig"; sourceTree = "<group>"; };
+		BB05C6E955FD9AB2BB30C2D0 /* Pods-FoodDViperApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodDViperApp.release.xcconfig"; path = "Target Support Files/Pods-FoodDViperApp/Pods-FoodDViperApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +53,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DEF3945E9FA2298315A90640 /* Pods_FoodDViperApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		17CD0B36E1FF9598FF4F86E3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3D7403748BC748E5C797E322 /* Pods_FoodDViperApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		49686425293C9F85003C1C81 = {
 			isa = PBXGroup;
 			children = (
 				49686430293C9F85003C1C81 /* FoodDViperApp */,
 				4968642F293C9F85003C1C81 /* Products */,
+				5C8DD68B769A08E496E948E0 /* Pods */,
+				17CD0B36E1FF9598FF4F86E3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,14 +90,48 @@
 			isa = PBXGroup;
 			children = (
 				49686431293C9F85003C1C81 /* AppDelegate.swift */,
+				49686457293E59FC003C1C81 /* UIColorExtension.swift */,
 				49686433293C9F85003C1C81 /* SceneDelegate.swift */,
-				49686435293C9F85003C1C81 /* ViewController.swift */,
+				49686445293CA09C003C1C81 /* SplashModule */,
 				49686437293C9F85003C1C81 /* Main.storyboard */,
 				4968643A293C9F86003C1C81 /* Assets.xcassets */,
 				4968643C293C9F86003C1C81 /* LaunchScreen.storyboard */,
 				4968643F293C9F86003C1C81 /* Info.plist */,
 			);
 			path = FoodDViperApp;
+			sourceTree = "<group>";
+		};
+		49686445293CA09C003C1C81 /* SplashModule */ = {
+			isa = PBXGroup;
+			children = (
+				49686454293E2B95003C1C81 /* View */,
+				49686446293CA0F3003C1C81 /* SplashPresenter.swift */,
+				49686435293C9F85003C1C81 /* SplashViewController.swift */,
+				49686448293CA71F003C1C81 /* SplashRouter.swift */,
+				4968644A293CA8DA003C1C81 /* SplashInteractor.swift */,
+				4968644C293CA95D003C1C81 /* SplashEntity.swift */,
+				4968644E293CAAF3003C1C81 /* SplashBuilder.swift */,
+				49686450293D3A8D003C1C81 /* SplashLocal.swift */,
+			);
+			path = SplashModule;
+			sourceTree = "<group>";
+		};
+		49686454293E2B95003C1C81 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				49686452293E2A7E003C1C81 /* SplashView.swift */,
+				49686455293E3780003C1C81 /* SplashViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5C8DD68B769A08E496E948E0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				74764E73C52410D00C594B0B /* Pods-FoodDViperApp.debug.xcconfig */,
+				BB05C6E955FD9AB2BB30C2D0 /* Pods-FoodDViperApp.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +141,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 49686442293C9F86003C1C81 /* Build configuration list for PBXNativeTarget "FoodDViperApp" */;
 			buildPhases = (
+				0EE903F11D88B4687C78BC29 /* [CP] Check Pods Manifest.lock */,
 				4968642A293C9F85003C1C81 /* Sources */,
 				4968642B293C9F85003C1C81 /* Frameworks */,
 				4968642C293C9F85003C1C81 /* Resources */,
+				E97E995263355BB869B0FD30 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,14 +202,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0EE903F11D88B4687C78BC29 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FoodDViperApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E97E995263355BB869B0FD30 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FoodDViperApp/Pods-FoodDViperApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FoodDViperApp/Pods-FoodDViperApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FoodDViperApp/Pods-FoodDViperApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4968642A293C9F85003C1C81 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				49686436293C9F85003C1C81 /* ViewController.swift in Sources */,
+				49686456293E3780003C1C81 /* SplashViewCell.swift in Sources */,
+				49686449293CA71F003C1C81 /* SplashRouter.swift in Sources */,
+				4968644B293CA8DA003C1C81 /* SplashInteractor.swift in Sources */,
+				49686436293C9F85003C1C81 /* SplashViewController.swift in Sources */,
 				49686432293C9F85003C1C81 /* AppDelegate.swift in Sources */,
+				49686451293D3A8D003C1C81 /* SplashLocal.swift in Sources */,
 				49686434293C9F85003C1C81 /* SceneDelegate.swift in Sources */,
+				49686458293E59FC003C1C81 /* UIColorExtension.swift in Sources */,
+				4968644D293CA95D003C1C81 /* SplashEntity.swift in Sources */,
+				49686453293E2A7E003C1C81 /* SplashView.swift in Sources */,
+				4968644F293CAAF3003C1C81 /* SplashBuilder.swift in Sources */,
+				49686447293CA0F3003C1C81 /* SplashPresenter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +402,7 @@
 		};
 		49686443293C9F86003C1C81 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74764E73C52410D00C594B0B /* Pods-FoodDViperApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -291,7 +412,6 @@
 				INFOPLIST_FILE = FoodDViperApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -309,6 +429,7 @@
 		};
 		49686444293C9F86003C1C81 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB05C6E955FD9AB2BB30C2D0 /* Pods-FoodDViperApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -318,7 +439,6 @@
 				INFOPLIST_FILE = FoodDViperApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
