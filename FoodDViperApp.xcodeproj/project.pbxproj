@@ -22,6 +22,25 @@
 		49686453293E2A7E003C1C81 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49686452293E2A7E003C1C81 /* SplashView.swift */; };
 		49686456293E3780003C1C81 /* SplashViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49686455293E3780003C1C81 /* SplashViewCell.swift */; };
 		49686458293E59FC003C1C81 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49686457293E59FC003C1C81 /* UIColorExtension.swift */; };
+		4968645A293F66DF003C1C81 /* P   roducts.json in Sources */ = {isa = PBXBuildFile; fileRef = 49686459293F66DE003C1C81 /* P   roducts.json */; };
+		4968645C293F7527003C1C81 /* InsteadOfNetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4968645B293F7527003C1C81 /* InsteadOfNetworkService.swift */; };
+		4968645F293F7A0B003C1C81 /* ProductModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4968645E293F7A0B003C1C81 /* ProductModel.swift */; };
+		49686461293F8659003C1C81 /* HomeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49686460293F8659003C1C81 /* HomeInteractor.swift */; };
+		49686464293F8905003C1C81 /* HomeBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49686463293F8905003C1C81 /* HomeBuilder.swift */; };
+		49686466293F8965003C1C81 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49686465293F8965003C1C81 /* HomeViewController.swift */; };
+		49686468293F899C003C1C81 /* HomeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49686467293F899C003C1C81 /* HomeRouter.swift */; };
+		4968646A293F89D7003C1C81 /* HomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49686469293F89D7003C1C81 /* HomePresenter.swift */; };
+		4968646C293FB0DA003C1C81 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = 4968646B293FB0DA003C1C81 /* data.json */; };
+		4968646E293FE112003C1C81 /* NavigationBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4968646D293FE112003C1C81 /* NavigationBuilder.swift */; };
+		496864702940CF9A003C1C81 /* FoodD Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4968646F2940CF9A003C1C81 /* FoodD Images.xcassets */; };
+		496864722940D27B003C1C81 /* TableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496864712940D27B003C1C81 /* TableCell.swift */; };
+		4968647529411C32003C1C81 /* Resto Logos.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4968647429411C32003C1C81 /* Resto Logos.xcassets */; };
+		496864772941E476003C1C81 /* HorizontalScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496864762941E476003C1C81 /* HorizontalScrollView.swift */; };
+		496864792941EA90003C1C81 /* VerticalScrollViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496864782941EA90003C1C81 /* VerticalScrollViewCell.swift */; };
+		4968647C29425C0A003C1C81 /* ShopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4968647B29425C0A003C1C81 /* ShopViewController.swift */; };
+		4968647E29428303003C1C81 /* HomeTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4968647D29428303003C1C81 /* HomeTableCell.swift */; };
+		4968648029437B04003C1C81 /* CartItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4968647F29437B04003C1C81 /* CartItem.swift */; };
+		4968648229437CAC003C1C81 /* DataBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4968648129437CAC003C1C81 /* DataBase.swift */; };
 		DEF3945E9FA2298315A90640 /* Pods_FoodDViperApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D7403748BC748E5C797E322 /* Pods_FoodDViperApp.framework */; };
 /* End PBXBuildFile section */
 
@@ -44,6 +63,25 @@
 		49686452293E2A7E003C1C81 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
 		49686455293E3780003C1C81 /* SplashViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewCell.swift; sourceTree = "<group>"; };
 		49686457293E59FC003C1C81 /* UIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		49686459293F66DE003C1C81 /* P   roducts.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "P   roducts.json"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.json; };
+		4968645B293F7527003C1C81 /* InsteadOfNetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsteadOfNetworkService.swift; sourceTree = "<group>"; };
+		4968645E293F7A0B003C1C81 /* ProductModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductModel.swift; sourceTree = "<group>"; };
+		49686460293F8659003C1C81 /* HomeInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeInteractor.swift; sourceTree = "<group>"; };
+		49686463293F8905003C1C81 /* HomeBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeBuilder.swift; sourceTree = "<group>"; };
+		49686465293F8965003C1C81 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		49686467293F899C003C1C81 /* HomeRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRouter.swift; sourceTree = "<group>"; };
+		49686469293F89D7003C1C81 /* HomePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePresenter.swift; sourceTree = "<group>"; };
+		4968646B293FB0DA003C1C81 /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
+		4968646D293FE112003C1C81 /* NavigationBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBuilder.swift; sourceTree = "<group>"; };
+		4968646F2940CF9A003C1C81 /* FoodD Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "FoodD Images.xcassets"; sourceTree = "<group>"; };
+		496864712940D27B003C1C81 /* TableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableCell.swift; sourceTree = "<group>"; };
+		4968647429411C32003C1C81 /* Resto Logos.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Resto Logos.xcassets"; sourceTree = "<group>"; };
+		496864762941E476003C1C81 /* HorizontalScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalScrollView.swift; sourceTree = "<group>"; };
+		496864782941EA90003C1C81 /* VerticalScrollViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerticalScrollViewCell.swift; sourceTree = "<group>"; };
+		4968647B29425C0A003C1C81 /* ShopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopViewController.swift; sourceTree = "<group>"; };
+		4968647D29428303003C1C81 /* HomeTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableCell.swift; sourceTree = "<group>"; };
+		4968647F29437B04003C1C81 /* CartItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartItem.swift; sourceTree = "<group>"; };
+		4968648129437CAC003C1C81 /* DataBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataBase.swift; sourceTree = "<group>"; };
 		74764E73C52410D00C594B0B /* Pods-FoodDViperApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodDViperApp.debug.xcconfig"; path = "Target Support Files/Pods-FoodDViperApp/Pods-FoodDViperApp.debug.xcconfig"; sourceTree = "<group>"; };
 		BB05C6E955FD9AB2BB30C2D0 /* Pods-FoodDViperApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodDViperApp.release.xcconfig"; path = "Target Support Files/Pods-FoodDViperApp/Pods-FoodDViperApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -71,6 +109,8 @@
 		49686425293C9F85003C1C81 = {
 			isa = PBXGroup;
 			children = (
+				49686459293F66DE003C1C81 /* P   roducts.json */,
+				4968646B293FB0DA003C1C81 /* data.json */,
 				49686430293C9F85003C1C81 /* FoodDViperApp */,
 				4968642F293C9F85003C1C81 /* Products */,
 				5C8DD68B769A08E496E948E0 /* Pods */,
@@ -90,10 +130,17 @@
 			isa = PBXGroup;
 			children = (
 				49686431293C9F85003C1C81 /* AppDelegate.swift */,
-				49686457293E59FC003C1C81 /* UIColorExtension.swift */,
+				4968646D293FE112003C1C81 /* NavigationBuilder.swift */,
 				49686433293C9F85003C1C81 /* SceneDelegate.swift */,
+				4968645E293F7A0B003C1C81 /* ProductModel.swift */,
+				4968647A294253B2003C1C81 /* Extensions */,
+				4968648329438157003C1C81 /* DB */,
+				49686462293F88C9003C1C81 /* HomeModule */,
+				4968645D293F7531003C1C81 /* NetworkService */,
 				49686445293CA09C003C1C81 /* SplashModule */,
 				49686437293C9F85003C1C81 /* Main.storyboard */,
+				4968646F2940CF9A003C1C81 /* FoodD Images.xcassets */,
+				4968647429411C32003C1C81 /* Resto Logos.xcassets */,
 				4968643A293C9F86003C1C81 /* Assets.xcassets */,
 				4968643C293C9F86003C1C81 /* LaunchScreen.storyboard */,
 				4968643F293C9F86003C1C81 /* Info.plist */,
@@ -123,6 +170,56 @@
 				49686455293E3780003C1C81 /* SplashViewCell.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		4968645D293F7531003C1C81 /* NetworkService */ = {
+			isa = PBXGroup;
+			children = (
+				4968645B293F7527003C1C81 /* InsteadOfNetworkService.swift */,
+			);
+			path = NetworkService;
+			sourceTree = "<group>";
+		};
+		49686462293F88C9003C1C81 /* HomeModule */ = {
+			isa = PBXGroup;
+			children = (
+				496864732940D282003C1C81 /* View */,
+				49686465293F8965003C1C81 /* HomeViewController.swift */,
+				4968647B29425C0A003C1C81 /* ShopViewController.swift */,
+				49686460293F8659003C1C81 /* HomeInteractor.swift */,
+				49686469293F89D7003C1C81 /* HomePresenter.swift */,
+				49686463293F8905003C1C81 /* HomeBuilder.swift */,
+				49686467293F899C003C1C81 /* HomeRouter.swift */,
+			);
+			path = HomeModule;
+			sourceTree = "<group>";
+		};
+		496864732940D282003C1C81 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				496864712940D27B003C1C81 /* TableCell.swift */,
+				4968647D29428303003C1C81 /* HomeTableCell.swift */,
+				496864782941EA90003C1C81 /* VerticalScrollViewCell.swift */,
+				496864762941E476003C1C81 /* HorizontalScrollView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4968647A294253B2003C1C81 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				49686457293E59FC003C1C81 /* UIColorExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		4968648329438157003C1C81 /* DB */ = {
+			isa = PBXGroup;
+			children = (
+				4968647F29437B04003C1C81 /* CartItem.swift */,
+				4968648129437CAC003C1C81 /* DataBase.swift */,
+			);
+			path = DB;
 			sourceTree = "<group>";
 		};
 		5C8DD68B769A08E496E948E0 /* Pods */ = {
@@ -197,6 +294,9 @@
 				4968643E293C9F86003C1C81 /* LaunchScreen.storyboard in Resources */,
 				4968643B293C9F86003C1C81 /* Assets.xcassets in Resources */,
 				49686439293C9F85003C1C81 /* Main.storyboard in Resources */,
+				4968647529411C32003C1C81 /* Resto Logos.xcassets in Resources */,
+				496864702940CF9A003C1C81 /* FoodD Images.xcassets in Resources */,
+				4968646C293FB0DA003C1C81 /* data.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,14 +352,30 @@
 				49686456293E3780003C1C81 /* SplashViewCell.swift in Sources */,
 				49686449293CA71F003C1C81 /* SplashRouter.swift in Sources */,
 				4968644B293CA8DA003C1C81 /* SplashInteractor.swift in Sources */,
+				4968646A293F89D7003C1C81 /* HomePresenter.swift in Sources */,
+				49686464293F8905003C1C81 /* HomeBuilder.swift in Sources */,
+				49686468293F899C003C1C81 /* HomeRouter.swift in Sources */,
+				49686461293F8659003C1C81 /* HomeInteractor.swift in Sources */,
+				4968647E29428303003C1C81 /* HomeTableCell.swift in Sources */,
+				49686466293F8965003C1C81 /* HomeViewController.swift in Sources */,
+				4968646E293FE112003C1C81 /* NavigationBuilder.swift in Sources */,
 				49686436293C9F85003C1C81 /* SplashViewController.swift in Sources */,
 				49686432293C9F85003C1C81 /* AppDelegate.swift in Sources */,
+				496864792941EA90003C1C81 /* VerticalScrollViewCell.swift in Sources */,
+				4968648029437B04003C1C81 /* CartItem.swift in Sources */,
+				496864772941E476003C1C81 /* HorizontalScrollView.swift in Sources */,
 				49686451293D3A8D003C1C81 /* SplashLocal.swift in Sources */,
 				49686434293C9F85003C1C81 /* SceneDelegate.swift in Sources */,
+				4968645F293F7A0B003C1C81 /* ProductModel.swift in Sources */,
+				4968648229437CAC003C1C81 /* DataBase.swift in Sources */,
+				4968645A293F66DF003C1C81 /* P   roducts.json in Sources */,
+				4968645C293F7527003C1C81 /* InsteadOfNetworkService.swift in Sources */,
 				49686458293E59FC003C1C81 /* UIColorExtension.swift in Sources */,
 				4968644D293CA95D003C1C81 /* SplashEntity.swift in Sources */,
+				496864722940D27B003C1C81 /* TableCell.swift in Sources */,
 				49686453293E2A7E003C1C81 /* SplashView.swift in Sources */,
 				4968644F293CAAF3003C1C81 /* SplashBuilder.swift in Sources */,
+				4968647C29425C0A003C1C81 /* ShopViewController.swift in Sources */,
 				49686447293CA0F3003C1C81 /* SplashPresenter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
